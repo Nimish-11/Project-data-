@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact information</title>
+</head>
+<body>
+    <p>E-mail - kimdictator@gmail.com</p>
+    <p>Address - Pyongyang</p>
+    <p>Phone number - 6483936494</p>
+    <hr>
+    <form action ="mailto:nimishgoyal02@gmail.com" method = "post" enctype="text/plain">
+        <!-- action means that when you press the submit button, you'll redirected to a specific page or all of the responses will be shared to the email specified by the developer -->
+        <!-- and post means that we're going to transfer what the user types into these input fields into the email client. -->
+        <!-- enctype means the encoding type of our website like utf-8 that in what format our website is written  -->
+        <label>Your Name : </label>
+        <input type="text" name="Your name "value="">
+        <!-- This name is used to detect the user inputs in mailto mail after you hit submit button. -->
+        <!-- <input type = "color">
+        input type ="color" is used to add a color picker in your form. Remember to use the american standard spelling of color and not colour -->
+        <br>
+        <!-- <br><label>Do you want to sign up? </label>
+        <input type = "checkbox"> 
+        <br><br>
+        <label>Enter your password : </label>
+        <input type = "password">
+        <br>
+        <br>
+        <input type="file"><br><br>
+        This is used to add 'choose a file to upload' button on your form -->
+        <!-- <input type="date"><br><br> -->
+        <!-- This is used to input data in date format and shows calendar to the user -->
+        <!-- <input type="radio"><br><br> -->
+        <!-- This is used to add radio button on your form -->
+        <!-- <input type="range"><br><br> -->
+        <!-- This is used to add a range bar where you can set a particular range by dragging the bar (like in youtube time showing bar) -->
+        <br><label>Your Email : </label>
+        <input type ="email" name="Your Email" value=""><br><br>
+        <!-- type='email' will let the user know that if he/she didn't add @ symbol or anything else related to an email address to rectify it. -->
+        <label>Your Message : </label><br><br>
+        <textarea name = "Your message" rows="10" cols = "30"></textarea>
+        <input type="submit" name="">
+    </form>
+</body>
+</html>
